@@ -16,6 +16,7 @@ import java.net.UnknownHostException
 
 import cats.{Eval, Id}
 import cats.effect.IO
+import cats.effect.unsafe.implicits.global
 import cats.syntax.either._
 import cats.syntax.option._
 import com.maxmind.geoip2.exception.AddressNotFoundException
